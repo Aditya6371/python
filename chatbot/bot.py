@@ -9,7 +9,7 @@ async def send_message(message,user_message,is_private):
     except: print('Invaild input..')
 
 def run_discord_bot():
-    TOKEN = 'MTA2Mzk4NTUzMjg3NjY0MDI4Nw.G7OkaZ.XZL2TzHk2UkYj-YBUmC1iQ2NkrRFN70Gu-X-WQ'
+    TOKEN = 'MTA2Mzk4NTUzMjg3NjY0MDI4Nw.GZd6Nw.ZiR0NgPGzyxHgJ8dsJx4_rDucL1EJoeOJgUbAQ'
     client = discord.Client(intents=discord.Intents.default())
 
 
