@@ -1,10 +1,12 @@
-#Printing 1 to 10 using different loops.....
-print("using for loop for printing")
-for i in range(1,10):
-    print(i)
+def Main():
+    print(add(5,4))
+    print(add(10,20))
+    print(add(335,740))
 
-print("using the  while loop for printing:")
-i=1
-while(i<10):
-    print(i)
-    i+=1
+
+
+def add(num1,num2):
+    return num1 + num2
+
+if __name__ == "__main__":
+    Main()

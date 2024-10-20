@@ -38,15 +38,9 @@ def main():
             print(joke)
         elif "news" in user_input:
             news()
-        elif "who made you" in user_input:
-            print("I am  virtual assistant programed by Aditya Ranjan Das")
-            speak("I am  virtual assistant programed by Aditya Ranjan Das")
         elif "what are you" in user_input:
             print("I am  a programmed virtual assistant made in python language")
             speak("I am  a programmed virtual assistant made in python language")
-        elif "who are you" in user_input:
-            print("I am  virtual assistant programed to help you")
-            speak("I am  virtual assistant programed to help you")
         elif "who am i" in user_input:
             greet = f"Greetings sir {uname}"
             print(greet)

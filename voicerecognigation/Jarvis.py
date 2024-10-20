@@ -1,8 +1,8 @@
 import speech_recognition as sr
 import pyttsx3
-import openai
+import google 
 
-openai.api_key = "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"
+google.api_key = "AIzaSyAA3SLU_ZQR_8GbmufAbUsKCe0-turHi1Ur"
 
 
 
@@ -35,7 +35,7 @@ def record_text():
 
 
 def send_to_chatGPT(messages,model='gpt-3.5-turbo'):
-    response = openai.ChatCompletion.create(
+    response = google.ChatCompletion.create(
         model=model,
         messages=messages,
         max_tokens=100,
